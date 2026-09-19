@@ -7,6 +7,29 @@ ABC (Amazing Business Computing)
 This program is designed to help small businesses figure out if they will be making a profit or a loss when buying items for their stores. 
 It allows users to store items, manage their budget, track past purchases, and compute whether their transactions result in a profit or a loss.
 
+## Project Objectives
+    1. To build a functional, menu based Python application that automates financial tracking for small businesses.
+    2. To provide an organized system for users to input item prices, manage capital budgets, and review previous purchases.
+    3. To deliver quick and precise profit and loss computations to assist in financial evaluation.
+
+## Planned Features
+Main Menu Navigation: Continuous loop utilizing options A through D (⁠A. Input Data⁠, ⁠B. Check Statistics⁠, ⁠C. Compute Profit or Loss⁠, ⁠D. Exit⁠).  
+Data Input Sub-Menu: Option A branches into sub-options for recording item names/prices with a continuous Y/N loop (⁠1. Input Items⁠) and setting capital (⁠2. Input Budget⁠).  
+Running Revenue Accumulation: Automatically sums up item prices as they are entered (⁠total_revenue = total_revenue + item_price⁠).  
+Statistics & History Check: Option B allows users to view stored records.  
+Automated Financial Analysis: Option C evaluates whether ⁠total_revenue > budget⁠ to instantly output exact profit or loss statements.  
+
+## Planned Inputs and Outputs
+ Inputs:
+Main Menu Selection: Alphabetical characters (⁠A⁠–⁠D⁠).  
+Sub-Menu Selection: Numeric choices (⁠1⁠ or ⁠2⁠).  
+Item Details: String for ⁠item_name⁠ and float for ⁠item_price⁠.  
+Budget and Loop Choices: Float for ⁠budget_amount⁠ and string (⁠Y⁠/⁠N⁠) for adding more  	items.  
+ Outputs:
+ Formatted text-based menus and status prompts.  
+ Statistics logs (⁠print statistics⁠).  
+ Computed profit or loss messages with currency indicators.  
+
 ## How to Run the Program:
 1. Make sure you have Python installed on your computer.
 2. Download or copy the project code into a file named `business_tracker.py`.
