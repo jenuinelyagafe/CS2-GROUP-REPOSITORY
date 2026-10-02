@@ -48,9 +48,9 @@ D. Exit
 Select option: D
 
 Exiting program...
-
+```
 
 ## Contributors:
-1. Laurence Gabriel L. Andrada
+1. Laurence Gabriel L. Andrada 
 2. Jen Agaffey S. Pusay
 3. Ram Kobe C. Gelera
