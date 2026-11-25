@@ -3,6 +3,10 @@
 This file lists all the updates made to our Amazing Business Computing (ABC) project.
 
 ---
+## Version v1.1.2 - November 25, 2026
+- Updated to missing features in flowchart.
+
+---
 
 ## Version v1.1.1 - November 24, 2026
 - Revisions on our designated Flowchart.
